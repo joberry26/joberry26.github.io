@@ -119,6 +119,8 @@ li {
 .sections li {
     font-size: 24px;
     line-height: 32px;
+    display: flex;
+    justify-content: center;
 }
 .section_title {
     display: flex;
@@ -137,11 +139,10 @@ li {
     line-height: 32px;
 }
 
-.skills_section .icon_table {
+.skills_section  .icon_table {
     display: grid;
     grid-template-columns: 25% 25% 25% 25%;
-    justify-content: center;
-    align-content: center;
+    padding-left: 0;
 }
 .skill_img {
     max-height: 100px;
