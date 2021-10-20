@@ -5,7 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfolio</title>
-    <link ref="stylesheet" href="index.css">
+    <link href="./index.css" ref="stylesheet" >
 </head>
 <body>
     <div class="header">
@@ -17,7 +17,7 @@
             <div class="horizontal_menu">
                 <ul class="menu_items">
                     <li>
-                            <a href="#about">about</a>>
+                            <a href="#about">about</a>
                     </li>
                     <li>
                             <a href="#skills">skills</a>
@@ -33,18 +33,28 @@
         </nav>
 
     </div>
-    <section id="about">
+    <section id="about" class="about_section sections">
         <div class="salutation_container">
-            <img class="profile_picture" src="./profile.jpg">
+            <img class="profile_picture" src="./img/profile.jpg">
             <h3 class="salutation">Welcome</h3>
         </div>
         <div class="about_info">
             <p class="about_text">
-                <!-- about text here -->
+                My name is Jo and I am an emerging web developer!
+                <br>
+                In 2021 I completed my Highschool education, Associate's Degree, and 6 months of 
+                training with the Army.
+                <br>
+                All of these fields and courses lead me to discover a passion for coding - and in the year 2021
+                I chose to enroll in the Immersive Full Stack Web Development program 
+                offered by <a href="https://devmountain.com/web-bootcamp-immersive" target="_blank">Devmountain</a>
+                <br>
+                Outside of progressing in development, I enjoy spending time with family, video games, and pretty 
+                much everything outdoors! Thanks for visiting!!
             </p>
         </div>
     </section>
-    <section id="skills">
+    <section id="skills" class="skills_section sections">
         <div class="skill_header">
             <h2 class="skills_title">skills</h2>
         </div>
@@ -52,50 +62,71 @@
             <ul class="icon_table">
                 <li>
                     <figure class="skill_container">
-                        <img class="" src="">
+                        <img class="skill_img" src="./img/NODE.png" alt="NODE">
                         <figcaption>
-                            <!-- icon caption here -->
+                            NODE
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure class="skill_container">
-                        <img class="" src="">
+                        <img class="skill_img" src="./img/JAVASCRIPT.png" alt="JAVASCRIPT">
                         <figcaption>
-                            <!-- icon caption here -->
+                            JAVASCRIPT
                         </figcaption>
                     </figure>
                 </li>
                 <li>
                     <figure class="skill_container">
-                        <img class="" src="">
+                        <img class="skill_img" src="./img/HTML5.png" alt="HTML5">
                         <figcaption>
-                            <!-- icon caption here -->
+                            HTML5
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="skill_container">
+                        <img class="skill_img" src="./img/CSS.png" alt="CSS">
+                        <figcaption>
+                            CSS
+                        </figcaption>
+                    </figure>
+                </li>
+                <li>
+                    <figure class="skill_container">
+                        <img class="skill_img" src="./img/GIT.png" alt="GIT">
+                        <figcaption>
+                            GIT
                         </figcaption>
                     </figure>
                 </li>
             </ul>
         </div>
     </section>
-    <section id="projects">
+    <section id="projects" class="projects_section sections">
         <div class="projects_header">
             <h2 class="projects_title">projects</h2>
         </div>
         <div class="projects_banner">
             <div class="projects_info">
                 <h2 class="projects_name">Jos Photos</h2>
-                <p>Description</p>
+                <p>Context: Devmountain Foundation Knowledge Project. The goal was to 
+                    showcase 3 various features a website can show using HTML5, CSS, and JAVASCRIPT
+                    <br><br>
+                    Description: Jos Photos showcases 5 unique photos in a carousel, with navigation buttons
+                    for next and prev, and a contact button where any interested user can email the photographer.
+                </p>
             </div>
             <div class="projects_links">
                 <a href="" target="_blank">demo</a>
                 <a href="" target="_blank">source</a>
             </div>
             <div class="projects_images">
-                <!-- insert carosal -->
+                <img src="./img/jos_photos.png" alt="Jos Photos">
             </div>
         </div>
     </section>
-    <section id="contact">
+    <section id="contact" class="contact_section sections">
         <div clas="contact_header">
             <h2 class="contact_title">contact</h2>
         </div>
@@ -103,25 +134,29 @@
             <ul class="logo_table">
                 <li>
                     <figure class="logo_container">
-                        <img class="" src="">
-                        <figcaption>
-                            <!-- logo caption here -->
-                        </figcaption>
+                        <a href="mailto:josephberry810@gmail.com">
+                            <img class="logo_img" src="./img/EMAIL.webp">
+                            <figcaption>
+                                EMAIL
+                            </figcaption>
+                        </a>
                     </figure>
                 </li>
             </ul>
             <ul class="logo_table">
                 <li>
                     <figure class="logo_container">
-                        <img class="" src="">
-                        <figcaption>
-                            <!-- logo caption here -->
-                        </figcaption>
+                        <a class="linkedIn" href="#">
+                            <img class="logo_img" src="./img/LINKEDIN.png">
+                            <figcaption>
+                                LINKEDIN
+                            </figcaption>
+                        </a>    
                     </figure>
                 </li>
             </ul>
         </div>
     </section>
-
+    <script src="./index.js"></script>
 </body>
 </html>
