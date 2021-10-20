@@ -66,6 +66,8 @@ li {
     top: 0;
     background-color: white;
     border-bottom: 5px solid black;
+    padding-left: 0;
+    padding-right: 0;
 
 }
 
