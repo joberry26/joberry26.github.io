@@ -1,0 +1,176 @@
+.js-focus-visible {
+    padding-left: 15%;
+    padding-right: 15%
+}
+
+h1, h2 {
+    font-family: 'Montserrat', sans-serif;
+}
+
+h3, h4, h5, h6, p, li, a {
+    font-family: 'Hind', sans-serif;
+}
+
+p, a, li, figcaption {
+    font-size: calc(16px + 1vw);
+    line-height: calc(16px + 2vw);
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style: none;
+    padding-left: 0;
+}
+
+
+ul {
+    list-style: none;
+    padding-left: 0;
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+    padding-inline-start: 40px;
+}
+
+
+img {
+    border-style: none;
+}
+
+
+p {
+   
+    margin-block-start: 1em;
+    margin-block-end: 1em;
+    margin-inline-start: 0px;
+    margin-inline-end: 0px;
+}
+
+li {
+    text-align: -webkit-match-parent;
+}
+
+
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width:68%;
+    /* border: black 5px; */
+    position: fixed;
+    top: 0;
+    background-color: white;
+    border-bottom: 5px solid black;
+
+}
+
+
+.horizontal_menu {
+    display: flex;
+    /* flex-direction: column; */
+    width: 100%;
+}
+
+.menu_items {
+    display: flex;
+    width: 100%;
+    justify-content: space-between;
+    padding-left: 0%;
+    
+    
+}
+.site_nav {
+    display: flex;
+    width: 50%;
+    align-items: center;
+
+}
+
+.profile_picture {
+    width: 50%;
+    max-width: 350px;
+    border-radius: 25%
+}
+
+.salutation {
+    display: flex;
+    font-size: 36px;
+    align-items: center;
+}
+
+.salutation_container {
+    padding-top: 15vh;
+    padding-bottom: 5vh;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+}
+
+.sections {
+    scroll-margin-top: 6em;
+    padding: 1vw 0;
+}
+
+.sections li {
+    font-size: 24px;
+    line-height: 32px;
+}
+.section_title {
+    display: flex;
+    align-content: center;
+    justify-content: center;
+    font-size: 36px;
+}
+.skill_container {
+
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 1vw 0;
+    font-size: 24px;
+    line-height: 32px;
+}
+
+.skills_section .icon_table {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+    justify-content: center;
+    align-content: center;
+}
+.skill_img {
+    max-height: 100px;
+}
+
+.projects_links {
+    display: flex;
+    justify-content: space-around;
+    padding-bottom: 3vh;
+}
+
+.projects_images img{
+    width:100%
+}
+
+.contact_info {
+    display: flex;
+    justify-content: center;
+}
+
+.logo_table{
+    justify-content: center;
+    align-content: center;
+    
+}
+.logo_container {
+    display: flex;
+    flex-direction: row;
+}
+.logo_img {
+    max-height: 100px;
+}
