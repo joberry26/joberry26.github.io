@@ -56,16 +56,18 @@ li {
     text-align: -webkit-match-parent;
 }
 
-
+.banner {
+    position: fixed;
+    top: 0;
+    right: 15%;
+    left: 15%;
+    
+}
 
 .header {
-    position:fixed;
-    width: 70vw;
     display: flex;
     flex-direction: row;
     justify-content: space-between;
-    /* width:68.2vw; */
-    top: 0;
     background-color: white;
     border-bottom: 5px solid black;
     padding-left: 0;
