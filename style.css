@@ -1,8 +1,12 @@
-.js-focus-visible html{
+.js-focus-visible {
     padding-left: 15%;
     padding-right: 15%
 }
+html {
+    padding-left: 15%;
+    padding-right: 15%
 
+}
 
 h1, h2 {
     font-family: 'Montserrat', sans-serif;
